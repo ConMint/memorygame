@@ -3,7 +3,7 @@ import './card.css';
 
 function Card(props) {
   return (
-    <div className="card" onClick={props.onclick}>
+    <div className={`card number${props.title}`} onClick={props.onclick}>
       {props.title}
     </div>
   );

@@ -3,3 +3,7 @@
     height: 100px;
     width: 100px;
 }
+
+.card.number1 {
+    background-color: black;
+}
